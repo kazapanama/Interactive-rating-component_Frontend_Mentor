@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.card-bg{
+    background-color:hsl(213, 19%, 18%);
+    width: 415px;
+    height: 415px;
+    border-radius: 1em;
+    
+}
+
+#rate{
+    display: none;
+}
+
+#result{
+    display:block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.star-circle{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color:hsla(216, 12%, 54%,0.5);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.star-circle > img {
+    width: 20px;
+    height: 20px;
+}
+
+h2 {
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+
+span {
+    display: block;
+    color:hsl(216, 12%, 54%);
+    margin: 0 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.03em;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 30px;
+}
+
+.rating-circle {
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color:hsla(216, 12%, 54%,0.5);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+    transition: 0.2s ease-in;
+}
+
+.active {
+    background-color:hsla(216, 12%, 54%,1);
+    color:hsl(0, 0%, 100%);
+}
+
+.rating-circle:hover {
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(25, 97%, 53%);
+}
+
+
+
+
+.btn {
+    width:355px;
+    height:50px;
+    background-color:hsl(25, 97%, 53%);
+    border:none;
+    border-radius: 2em;
+    color:hsl(0, 0%, 100%);
+    text-transform:uppercase;
+    letter-spacing: 0.075em;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover{
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.thanks-img{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.final-rate{
+    background-color: hsla(216, 12%, 54%,0.5);
+    color:hsl(25, 97%, 53%);
+    padding: 10px 20px;
+    border-radius:2em;
+    margin-bottom: 40px;
+}
+
+#result > h2 {
+    margin-left:0;
+}
