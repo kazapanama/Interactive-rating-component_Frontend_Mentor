@@ -25,15 +25,16 @@ body{
 }
 
 #rate{
-    display: none;
+    display: block;
 }
 
 #result{
-    display:block;
-    display: flex;
+    display:none;
+
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    
 }
 
 .star-circle{
