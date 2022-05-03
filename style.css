@@ -144,3 +144,39 @@ span {
 #result > h2 {
     margin-left:0;
 }
+
+#result > span {
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .card-bg{
+        margin:0 10%;
+        padding:20px;
+    }
+    .btn{
+        width:95%;
+        margin-left: 10px;
+    }
+
+    .rating{
+        gap:15px;
+    }
+
+    .rating-circle{
+        width:45px;
+        height: 45px;
+    }
+
+    h2 {
+        margin-left: 7px;
+    }
+
+    .star-circle{
+        margin-left:7px;
+    }
+
+    span {
+        margin-left: 7px;
+    }
+}
